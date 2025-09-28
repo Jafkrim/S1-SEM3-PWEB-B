@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Drop Down List</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="card">
+        <form>
+          <h1 class="card-title">Daftar Pilihan Dinamis</h1>
+          <label class="card-label" for="perangkat">Pilihan Perangkat:</label><br>
+          <select class="card-select" id="perangkat">
+            <option value="">Tidak Ada</option>
+          </select><br><br>
+          <label class="card-label" for="merek">Pilihan Merek:</label><br>
+          <select class="card-select" id="merek" disabled>
+            <option value="">Tidak Ada</option>
+          </select><br>
+        </form>
+      </div>
+      <button class="button-form" id="goMaMe">Main Menu</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+
+</html>

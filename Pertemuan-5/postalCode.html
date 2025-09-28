@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Postal Code</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="card">
+        <form id="postalCode" method="post">
+          <h1 class="card-title">Kode Pos Indonesia</h1>
+          <label class="card-label" for="provinsi">Provinsi:</label><br>
+          <select class="card-select" id="provinsi">
+            <option value="">Tidak Ada</option>
+          </select><br><br>
+          <label class="card-label" for="kotaKab">Kota/Kabupaten:</label><br>
+          <select class="card-select" id="kotaKab" disabled>
+            <option value="">Tidak Ada</option>
+          </select><br><br>
+          <label class="card-label" for="wilayahKodePos">Kode Pos/Wilayah:</label><br>
+          <input type="text" class="card-text" id="wilayahKodePos" name="wilayahKodePos" disabled><br><br>
+          <input type="submit" value="Telusuri" class="button-form"><br>
+        </form>
+      </div>
+      <div class="result">
+        <p></p>
+        <input type="submit" value="Tutup" class="button-form"><br>
+      </div>
+      <button class="button-form" id="goMaMe">Main Menu</button>
+    </div>
+    
+
+    <script src="./script.js"></script>
+  </body>
+
+</html>

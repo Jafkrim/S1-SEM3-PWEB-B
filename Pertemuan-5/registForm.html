@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="card">
+        <form id="regForm" method="post">
+          <h1 class="card-title">Formulir Pendaftaran</h1>
+          <label class="card-label" for="mahasiswaNim">Nama Mahasiswa atau NIM:</label><br>
+          <input type="text" class="card-text" id="mahasiswaNim" name="mahasiswaNim" placeholder="Nama Mahasiswa atau NIM"><br><br>
+          <label class="card-label" for="mataKuliah">Pilihan Mata Kuliah:</label><br>
+          <input type="text" class="card-text" id="mataKuliah" name="mataKuliah" placeholder="Kode atau Nama Mata Kuliah"><br><br>
+          <label class="card-label" for="dosenPengajar">Pilihan Dosen Pengajar:</label><br>
+          <select class="card-select" id="dosenPengajar">
+            <option value="">Tidak Ada</option>
+          </select><br><br>
+          <input type="submit" value="Daftar" class="button-form"><br>
+        </form> 
+      </div>
+      <button class="button-form" id="goMaMe">Main Menu</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+
+</html>
