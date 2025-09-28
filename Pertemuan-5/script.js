@@ -270,17 +270,17 @@ if (provSelect && kotaSelect && kodePosInput && resultDiv) {
 
         if (!kotaVal) errors.push("Kota/Kabupaten");
 
-        if (!kodePosVal) errors.push("Wilayah/Kode Pos");
+        if (!kodePosVal) errors.push("Kode Pos/Wilayah");
 
         if (errors.length) {
           resultDiv.style.display = "block";
-          resultDiv.querySelector("p").textContent = `Lengkapi: ${errors.join(", ")}`;
+          resultDiv.querySelector("p").textContent = `Lengkapi ${errors.join(", ")}`;
           return;
         }
 
         if (!match) {
           resultDiv.style.display = "block";
-          resultDiv.querySelector("p").textContent = "Wilayah/Kode Pos tidak tersedia.";
+          resultDiv.querySelector("p").textContent = "Kode Pos/Wilayah tidak tersedia.";
           return;
         }
 
