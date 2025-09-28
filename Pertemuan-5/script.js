@@ -1,6 +1,6 @@
 // Go To Page
 const navList = {
-    goMaMe: "./index.html",
+    goMaMe: "./",
     goReFo: "./registForm.html",
     goPoCo: "./postalCode.html",
     goDyDrDoLi: "./dynaDropDown.html"
